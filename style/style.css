@@ -1,0 +1,82 @@
+.head{
+    display: flex;
+    flex: 0 0 content;
+    background-color:rgb(209, 207, 207);
+    font-size: 20px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 20px;
+    height: 25%;
+}
+.caption{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-self: stretch;
+    padding: 10px;
+}
+.article{
+    background-color: rgb(237, 211, 173);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 20px;
+    width: 100%;
+}
+.text{
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(219, 148, 87);
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+}
+.aside{
+    display: flex;
+    background-color: rgb(210, 232, 177);
+    font-size: 20px;
+    width: 40%;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.flexcontainer{
+    display: flex;
+    background-color: rgb(237, 211, 173);
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+}
+.section{
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    background-color:rgb(209, 207, 207);
+    height: 100%;
+    font-size: 20px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
